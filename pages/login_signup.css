@@ -1,0 +1,94 @@
+.loginUI{
+    flex-wrap: nowrap;
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 100px auto;
+    box-shadow: 2px 2px 8px #000;
+    border: none;
+    padding: 30px;
+
+}
+
+.signupUi{
+
+    flex-wrap: nowrap;
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 100px auto;
+    box-shadow: 2px 2px 8px #000;
+    border: none;
+    padding: 30px;
+
+
+
+
+
+}
+.entireBody{
+    background: url(../images/login\ page.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+.loginLowerBody a{
+    /* color: azure; */
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.loginLowerBody button{
+    font-size: larger;
+}
+#showBtnlogin{
+    color: white;
+    border: none;
+    background-color: blue;
+    font-size: 1.2em;
+}
+#showBtnsignup{
+    color: white;
+    border: none;
+    background-color: blue;
+    font-size: 1.2em;
+}
+
+.entireSignup{
+    background: url(../images/login\ page.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;   
+}
+.signupUi{
+    margin-right: auto;
+    margin-left: auto;
+    
+    /* width: 30%; */
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    /* background-color: whitesmoke; */
+   
+}
+.signupLowerbody button{
+    font-size: larger;
+}
+.signupLowerbody a{
+    /* color: azure; */
+
+}
+
+
+
+.profilePage input::placeholder{
+font-size: 1.4em;
+font-weight: bolder;
+text-align: center;
+
+
+}

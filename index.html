@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./pages/style.css">
+
+
+
+    <title>TODO APPLICATION</title>
+</head>
+
+<body>
+    <div class="entireUI">
+
+        <head>
+
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #87C5FE;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <h2>My App &nbsp; &nbsp; </h2>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html"><h4>Home</h4> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./pages/profile.html"><h4>My Profile</h4> </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </head>
+
+
+
+
+
+
+
+
+
+        <div class="entireBody">
+            <div class="todoBody container my-5">
+
+                <div>
+                    <h1>
+                        TODO APPLICATION
+                    </h1><br><br>
+
+                    <div>
+
+                        <div class="input-group mb-3 todo">
+                            <!-- <span class="input-group-text" style="font-size: 1.3em;" id="inputGroup-sizing-default">TODO &nbsp; &#x2192;</span> -->
+                            <!-- &nbsp; -->
+                            <input type="text" class="form-control" aria-label="Sizing example input" id="todoInput"
+                                placeholder="ENTER YOUR TODOS HERE" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="addTodo()">Add</button>
+                    <button class="btn btn-danger" onclick="deleteAll()">Delete All</button>
+                    <br>
+                    <br>
+                </div>
+                <h1>MY TODOS</h1>
+                <!-- <div id="parent"> -->
+                    <div class="  d-flex cards  flex-wrap my-4 " id="parent">
+                        <!-- <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+
+                                <div class="btns"> 
+                                    <button class="btn btn-primary">Edit</button>
+                                    <button class="btn btn-danger">Delete</button>
+                                </div>
+                            </div>
+
+
+
+                        </div> -->
+
+
+
+
+
+       
+                    </div>
+
+
+
+
+
+
+
+
+
+                <!-- </div> -->
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="./javascript/app.js" type="module"></script>
+
+</html>

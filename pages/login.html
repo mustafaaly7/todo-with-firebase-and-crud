@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./login_signup.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="entireBody">
+        <br><br><br><br>
+        <div class=" container loginUI">
+
+            <div class="loginUpperBody">
+                <h1>
+                    Login 
+                </h1> 
+                <br>
+
+                <label for="loginEmail"> <h4>Email </h4><br>
+                    <input type="email" placeholder="Enter Your Email" id="loginEmail">
+                </label>
+                <br>
+                <br>
+                <label for="loginPw"><h4> Password</h4> <br>
+
+
+                    <input type="password" placeholder="Enter Your Paswword" id="loginPw"> <button
+                        onclick="toggleLogin()" id="showBtnlogin">show</button>
+                </label>
+
+            </div>
+            <br>
+            <!-- <br> -->
+            <div class="loginLowerBody">
+                <button class="btn btn-primary" onclick="loginHandler()">Login</button>
+                <br>
+                <br>
+                <a href="../pages/signup.html"> Don't Have an Account? Signup Now!</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="../javascript/login.js" type="module"></script>
+
+</html>

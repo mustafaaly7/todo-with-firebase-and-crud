@@ -1,0 +1,90 @@
+.entireUI{
+    background: url(../images/login\ page.avif);
+    background-repeat: no-repeat;
+min-height: 100vh;   
+    width: 100%;
+    /* background-position: center; */
+    background-size: cover;
+
+}
+
+
+.todoBody{
+    width: 50%;
+    /* background-color: #e3f2fd; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.todoBody button{
+    font-size: large; 
+    margin: 4px 5px 0px 5px;
+}
+.todo input{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.todo{
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+}
+.todoBody h1{
+text-align: center;
+/* font-size: large; */
+    font-weight: bold;
+}
+.todo{
+    width: 80%;
+}
+
+.cards{
+    gap: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileUi{
+    background: url(../images/login\ page.avif);
+    background-repeat: no-repeat;
+min-height: 100vh;   
+    width: 100%;
+    /* background-position: center; */
+    background-size: cover;
+
+}
+
+.profilePage{
+    width: 100%;
+    /* background-color: #e3f2fd; */
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+}
+
+#profileCard{
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+    /* background-color: whitesmoke; */
+}
+#profileCard input::placeholder{
+color: black;
+font-size: 1em;
+/* text-align: center; */
+
+}
+
+#profileCard button{
+    font-size: 1.6em;
+}

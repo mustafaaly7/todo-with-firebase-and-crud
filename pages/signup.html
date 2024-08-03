@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./login_signup.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <div class="entireSignup">
+        <br>
+        
+        <div class=" container signupUi">
+
+            <div class="signupUpperbody">
+                <h1>
+                    Signup
+                </h1>
+                <br>
+
+                <label for="signupName"> Name <br>
+                    <input type="email" placeholder="Enter Your FullName" id="signupName">
+                </label>
+                <br>
+                
+                <label for="signupCountry"> Country <br>
+                    <input type="email" placeholder="Enter Your Country Name" id="signupCountry">
+                </label>
+                <br>
+                <label for="signupNumber"> Phone Number <br>
+                    <input type="number" placeholder="Enter Your Phone Number" id="signupNumber">
+                </label>
+                <br>
+                <label for="signupEmail"> Email <br>
+                    <input type="email" placeholder="Enter Your Email" id="signupEmail">
+                </label>
+                <br>
+                <label for="signupPw"> Password <br>
+
+
+                    <input type="password" placeholder="Enter Your Paswword" id="signupPw"> <button
+                        onclick="toggleSignup()" id="showBtnsignup">show</button>
+                </label>
+
+            </div>
+            <br>
+
+            
+            
+            <div class="signupLowerbody">
+                <button class="btn btn-primary" onclick="signupHandler()">Signup</button>
+                <br>
+                <a href="../pages/login.html"> Already Have an Account? Login</a>
+                <br>
+
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+
+</body>
+<script src="../javascript/signup.js" type="module"></script>
+</html>
